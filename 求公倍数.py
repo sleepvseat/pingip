@@ -2,6 +2,11 @@
 求最大公约数和公倍数
 '''
 '''
+#可以使用列表功能取最大值
+l=[2,6,7]
+s=max(l)
+print(s)
+'''
 def gongYueshu(a,b):
     if a<b:
         (a, b) = (b, a)
