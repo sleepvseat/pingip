@@ -10,11 +10,13 @@ window=tkinter.Tk()
 window.geometry('800x600')
 window.title('获取可用的代理地址')
 
-#我尝试一次，不用安装tcping也可以可能事我把tcping放在.py同个文件夹了
-# tcping_get='https://download.elifulkerson.com//files/tcping/0.39/tcping.exe'
-# r=requests.get(tcping_get)
-# with open('C:\Windows\System32','wb')as f:
-#     f.write(r.content)
+#1.运行可能需要tcping
+#2.ping3测试快，都能通过只是延迟高，不好取值
+#3.place  grid   pack  ,place比较好用
+#4.网址判断，备用和主动输入，if选择取值报错，去掉了if用句
+# 
+# 
+#     
 
 def copycc():
     back_url='https://www.89ip.cn/tqdl.html?num=60&address=%E9%9F%A9%E5%9B%BD&kill_address=&port=&kill_port=&isp='
