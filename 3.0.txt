@@ -1,0 +1,2 @@
+place 比grid  pack 好用
+Entry接受输入和备用网址时，if语句使用失败。
